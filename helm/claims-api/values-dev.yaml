@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  tag: "9aad77c" # CI edits this value automatically, do not edit manually
+  tag: "e0592dc"
 
 env:
   ASPNETCORE_ENVIRONMENT: "Development"
