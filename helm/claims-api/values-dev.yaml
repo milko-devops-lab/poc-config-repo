@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  tag: "ac43b51"
+  tag: "03c6afe"
 
 env:
   ASPNETCORE_ENVIRONMENT: "Development"
