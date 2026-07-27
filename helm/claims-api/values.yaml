@@ -37,5 +37,3 @@ securityContext:
   capabilities:
     drop:
       - ALL
-ingress:
-  enabled: false
