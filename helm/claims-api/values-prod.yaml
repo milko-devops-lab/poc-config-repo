@@ -1,7 +1,7 @@
 replicaCount: 2
 
 image:
-  tag: "v1.1.100"
+  tag: ""
 
 env:
   ASPNETCORE_ENVIRONMENT: "Production"
