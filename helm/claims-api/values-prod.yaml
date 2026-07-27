@@ -1,0 +1,16 @@
+replicaCount: 3
+
+image:
+  tag: "5210b6d"
+
+env:
+  ASPNETCORE_ENVIRONMENT: "Production"
+  LOG_LEVEL: "Info"
+
+resources:
+  limits:
+    cpu: 150m
+    memory: 256Mi
+  requests:
+    cpu: 50m
+    memory: 128Mi

@@ -1,0 +1,16 @@
+replicaCount: 1
+
+image:
+  tag: "5210b6d"
+
+env:
+  ASPNETCORE_ENVIRONMENT: "Test"
+  LOG_LEVEL: "Debug"
+
+resources:
+  limits:
+    cpu: 100m
+    memory: 128Mi
+  requests:
+    cpu: 25m
+    memory: 64Mi
