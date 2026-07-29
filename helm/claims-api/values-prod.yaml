@@ -6,6 +6,7 @@ image:
 env:
   ASPNETCORE_ENVIRONMENT: "Production"
   LOG_LEVEL: "Info"
+  vaultEnvPath: "prod"
 
 resources:
   limits:
