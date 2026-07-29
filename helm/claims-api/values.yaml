@@ -25,6 +25,7 @@ resources:
 env:
   ASPNETCORE_ENVIRONMENT: "Production"
   LOG_LEVEL: "Information"
+  vaultEnvPath: "prod"
 
 podSecurityContext:
   runAsNonRoot: true
