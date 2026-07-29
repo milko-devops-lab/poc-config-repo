@@ -6,6 +6,7 @@ image:
 env:
   ASPNETCORE_ENVIRONMENT: "Test"
   LOG_LEVEL: "Debug"
+  vaultEnvPath: "test"
 
 resources:
   limits:
